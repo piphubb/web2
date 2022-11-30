@@ -1,0 +1,111 @@
+
+#menu ul{
+	list-style: none;
+}
+
+#menu ul li{
+	background-image: url(../img/back.jpg);
+	
+	width: 120px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 8px;
+	
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#menu ul li a:hover{
+	background-image: url(../img/backhover.jpg);
+	border-radius: 8px;
+
+}
+#clear{
+	clear: both;
+
+}
+
+body
+{ 
+	margin:0; 
+	padding:0; 
+}
+
+#top
+{
+	width:100%;
+	height:40px;
+	background:#3300FF;
+	color:white;
+	margin:0 auto;
+	position:fixed;
+}
+
+#top p
+{
+	margin:0 auto;
+	padding-top:5px;
+	margin-left:50px;
+}
+
+#header
+{
+	width:1000px;
+	height:100px;
+	border-top:2px solid gray;
+	margin:0 auto;
+}
+
+#menu
+{
+	width:100%;
+	height:35px;
+	/*border-top:2px solid gray;*/
+	margin:0 auto;
+	background-image: url(../img/backhover.jpg);
+	position: fixed;
+}
+
+#body
+{
+	width:1000px;
+	height:600px;
+	/*border-top:2px solid gray;*/
+	margin:0 auto;
+	
+}
+#post_body
+{
+	width:670px;
+	height:600px;
+	border-right:2px solid gray;
+	margin:0 auto;
+	float:left;
+}
+
+#sidebar
+{
+	width:300px;
+	height:600px;
+	margin:0 auto;
+	background:#FFFF00;
+	float:right;
+}
+#footer
+{
+	width:100%;
+	height:100px;
+	background:#000066;
+	margin:0 auto;
+	padding-top:5px;
+
+}
+
+.clear
+{
+	width:100%;
+	height:0px;	
+}
